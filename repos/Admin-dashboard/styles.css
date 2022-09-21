@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  border: solid black 1px;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  border: solid black 1px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #0ea5e9;
+  width: 18%;
+  height: 93%;
+  padding: 4% 0 0 2%;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+header {
+  border: solid black 1px;
+  position: absolute;
+  right: 0;
+  height: 20%;
+  width: 80%;
+}
+
+.main-content {
+  border: solid red 1px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 80%;
+}
