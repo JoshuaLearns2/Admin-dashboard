@@ -23,6 +23,27 @@
 
 .logo {
   font-size: 25px;
+  padding-left: 8px;
+}
+
+.logo-icon {
+  position: relative;
+  top: 13px;
+}
+
+.dashboard-link {
+  padding-left: 12px;
+}
+
+.icon {
+  position: relative;
+  top: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
 }
 
 header {
