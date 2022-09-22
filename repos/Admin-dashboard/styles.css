@@ -4,21 +4,19 @@
 }
 
 .wrapper {
-  border: solid black 1px;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
+  background-color: #e2e8f0;
 }
 
+/* Sidebar styling  */
+
 .sidebar {
-  border: solid black 1px;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: white;
   background-color: #0ea5e9;
-  width: 18%;
-  height: 93%;
-  padding: 4% 0 0 2%;
+  width: 18vw;
+  height: 100vh;
+  padding: 1% 0 0 2%;
 }
 
 .logo {
@@ -40,25 +38,70 @@
   top: 4px;
 }
 
-a {
+.sidebar > a {
   text-decoration: none;
   color: white;
   padding-left: 20px;
 }
 
-header {
-  border: solid black 1px;
+/* Header styling  */
+
+.main-header-container {
+  background-color: white;
+  width: 80vw;
+  height: 20vh;
   position: absolute;
+  top: 0;
   right: 0;
-  height: 20%;
-  width: 80%;
+  box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);
 }
 
-.main-content {
-  border: solid red 1px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 80%;
-  height: 80%;
+.ls-header-container {
+  width: 60%;
+  height: 20vh;
 }
+
+.search-bar {
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 50px;
+  width: 550px;
+  height: 30px;
+}
+
+.search-bar-icon {
+  position: relative;
+  top: 8px;
+  margin: 25px 0 0 70px;
+}
+
+.greeting-img {
+  border-radius: 50px;
+  float: left;
+  margin: 15px 0 0 70px;
+}
+
+.greeting-text {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  margin: 25px 0 0 15px;
+}
+
+.greeting-title {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin: 0 0 0 15px;
+}
+
+.rs-header-container {
+  background-color: aqua;
+  width: 40%;
+  height: 20vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Main content styling  */
+
