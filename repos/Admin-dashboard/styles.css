@@ -131,6 +131,12 @@
   color: white;
 }
 
+button:hover {
+  background-color: #0ea4e995;
+  transition-delay: 10ms;
+  cursor: pointer;
+}
+
 
 
 /* Main content styling  */
