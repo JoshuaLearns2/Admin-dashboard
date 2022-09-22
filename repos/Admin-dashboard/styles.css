@@ -95,13 +95,43 @@
 }
 
 .rs-header-container {
-  background-color: aqua;
+  font-family: 'Roboto', sans-serif;
   width: 40%;
   height: 20vh;
   position: absolute;
   top: 0;
   right: 0;
 }
+
+.small-profile-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 50%;
+}
+
+.small-profile-img {
+  border-radius: 50px;
+}
+
+.header-button-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 50%;
+}
+
+.header-button-container > button {
+  display: inline-block;
+  width: 75px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #0ea5e9;
+  color: white;
+}
+
+
 
 /* Main content styling  */
 
